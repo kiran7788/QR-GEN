@@ -4,10 +4,13 @@
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
 }
-body{
-    background-image: url(anime.jpg);
-    background-size: 100%;
+body {
+    background: url('anime.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
 }
+
 .container{
     width: 400px;
     padding: 25px 35px;
@@ -16,8 +19,8 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url(wp.jpg);
-    background-size: 100%;
+    background-image: url('giphy.gif');
+    background-size: cover;
     border-radius: 10px;
 }
 .container p{
